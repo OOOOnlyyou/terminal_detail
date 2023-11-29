@@ -13,20 +13,6 @@ from selenium.webdriver.support import expected_conditions as EC
 
 
 class GetModelParameter(object):
-    """
-    :parameter
-        mode:0-->手机
-        mode:1-->笔记本电脑
-        mode:2-->平板电脑
-        mode:3-->电视
-        mode:4-->路由器
-        mode:5-->监控摄像机
-        mode:6-->电视盒
-        mode:7-->智能门锁
-        mode:8-->智能手表
-        mode:9-->台式电脑
-        mode:10-->智能音箱
-    """
     __type__ = ['cell_phone', 'notebook', 'tablepc', 'digital_tv', 'wireless_router', 'camera_equipment', 'hd-player',
                 'doorbell', 'GPSwatch', 'desktop_pc', 'Intelligentvoiceassistant']
 
