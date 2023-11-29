@@ -1,1 +1,1 @@
-# terminal_detail
+# 自动获取终端详细参数
