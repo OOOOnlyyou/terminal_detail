@@ -245,11 +245,3 @@ class GetModelParameter(object):
                 for undo_id in undo_ids:
                     self.__getTerminalDetails(undo_id)
                 _startPage += 1
-
-
-if __name__ == "__main__":
-    s = time.time()
-    gmp = GetModelParameter(savePath="./phone_info_zto_top666.csv", mode=0, browserDriverPath='./chromedriver')
-    gmp.main(_startPage=3, _endPage=5)
-    e = time.time()
-    print(e - s)
